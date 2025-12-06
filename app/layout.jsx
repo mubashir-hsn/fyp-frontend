@@ -33,9 +33,9 @@ export default function RootLayout({ children }) {
             </main>
             <Toaster richColors/>
             {/* footer */}
-            <footer className="py-6 text-center bg-gray-800">
-              <div className="container mx-auto text-center text-gray-100">
-                <p>Made By Mubashir</p>
+            <footer className="py-4 text-center bg-background border border-t border-slate-300">
+              <div className="container mx-auto text-center">
+                <p>©careerly. All rights reserved</p>
               </div>
             </footer>
           </ThemeProvider>

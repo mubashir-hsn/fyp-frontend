@@ -1,12 +1,12 @@
-import { getCoverLetters } from '@/actions/cover-letter'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import React from 'react'
+import coverLetters from '@/data/database/CoverLetter.json'
 import CoverLetterList from './_components/cover-leter-list'
 
 const AICoverLetterPage = async() => {
 
-  const coverLetters = await getCoverLetters();
+  // const coverLetters = CoverLetterList;
 
   return (
     <div className='space-y-4 p-4 container mx-auto'>

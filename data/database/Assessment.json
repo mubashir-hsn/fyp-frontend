@@ -1,0 +1,210 @@
+[
+    {
+      "id": "cmf10j8ce0001igagmjsp3ri9",
+      "userId": "4f0bfd39-0338-42bd-85f0-0223c2d129fc",
+      "quizScore": 50,
+      "questions": [
+        {
+          "answer": "'==' checks for value equality, while '===' checks for both value and type equality.",
+          "question": "What is the primary difference between '==' and '===' in JavaScript?",
+          "isCorrect": false,
+          "userAnswer": "'===' checks for value equality, while '==' checks for both value and type equality.",
+          "explanation": "'==' performs loose equality comparison, while '===' performs strict equality comparison, considering both value and data type."
+        },
+        {
+          "answer": "function my_function(): ...",
+          "question": "Which of the following is NOT a valid way to define a function in Python?",
+          "isCorrect": true,
+          "userAnswer": "function my_function(): ...",
+          "explanation": "The keyword 'function' is not used to define functions in Python.  'def' or lambda expressions are used."
+        },
+        {
+          "answer": "It prevents the member function from modifying member variables of the class.",
+          "question": "In C++, what is the purpose of the 'const' keyword when applied to a class member function?",
+          "isCorrect": false,
+          "userAnswer": "It makes the member function virtual.",
+          "explanation": "'const' ensures that the member function will not modify the state of the object."
+        },
+        {
+          "answer": "The command-line arguments passed to the Node.js process.",
+          "question": "In Node.js, what does the 'process.argv' object provide?",
+          "isCorrect": false,
+          "userAnswer": "The environment variables.",
+          "explanation": "process.argv contains an array of strings representing the command-line arguments."
+        },
+        {
+          "answer": "ASP.NET",
+          "question": "Which .NET technology is primarily used for building web applications?",
+          "isCorrect": false,
+          "userAnswer": "Windows Forms",
+          "explanation": "ASP.NET is a framework for building web applications and services."
+        },
+        {
+          "answer": "Node Package Manager",
+          "question": "What does 'npm' stand for in the context of Node.js?",
+          "isCorrect": true,
+          "userAnswer": "Node Package Manager",
+          "explanation": "npm is the package manager for Node.js."
+        },
+        {
+          "answer": "To manage resources, ensuring proper cleanup.",
+          "question": "In Python, what is the primary purpose of the 'with' statement?",
+          "isCorrect": true,
+          "userAnswer": "To manage resources, ensuring proper cleanup.",
+          "explanation": "'with' ensures that resources like files are closed even if exceptions occur."
+        },
+        {
+          "answer": "To deallocate resources held by an object.",
+          "question": "What is the purpose of a destructor in C++?",
+          "isCorrect": true,
+          "userAnswer": "To deallocate resources held by an object.",
+          "explanation": "Destructors are called when an object is destroyed, allowing for resource cleanup."
+        },
+        {
+          "answer": "'var' has function scope, 'let' has block scope.",
+          "question": "In JavaScript, what is the primary difference between a 'let' and a 'var' declaration?",
+          "isCorrect": true,
+          "userAnswer": "'var' has function scope, 'let' has block scope.",
+          "explanation": "'let' is block-scoped, while 'var' is function-scoped or globally scoped if declared outside any function."
+        },
+        {
+          "answer": "All of the above",
+          "question": "Which of the following is a common design pattern used extensively in .NET development?",
+          "isCorrect": false,
+          "userAnswer": "Singleton Pattern",
+          "explanation": "All three design patterns (Factory, Singleton, and Observer) are commonly used in .NET."
+        }
+      ],
+      "category": "Technical",
+      "improvementTip": "Focus on solidifying your understanding of fundamental JavaScript comparison operators, C++ class member function modifiers, and common .NET technologies like ASP.NET and design patterns.  Reviewing core concepts and practicing coding examples will significantly improve your performance.",
+      "createdAt": "2025-09-01 11:05:08.59",
+      "updatedAt": "2025-09-01 11:05:08.59"
+    },
+    {
+      "id": "cmf1iuwhz0001ign0iwebvp5j",
+      "userId": "4f0bfd39-0338-42bd-85f0-0223c2d129fc",
+      "quizScore": 90,
+      "questions": [
+        {
+          "answer": "int a = 40;",
+          "question": "Which of the following is NOT a valid way to declare a variable in JavaScript?",
+          "isCorrect": true,
+          "userAnswer": "int a = 40;",
+          "explanation": "'int' is a keyword used for declaring integer variables in C++, not JavaScript."
+        },
+        {
+          "answer": "The object that called the function",
+          "question": "What does the 'this' keyword refer to in JavaScript?",
+          "isCorrect": true,
+          "userAnswer": "The object that called the function",
+          "explanation": "The 'this' keyword refers to the object that invoked the current function.  Its value depends on the calling context."
+        },
+        {
+          "answer": "It refers to the instance of the class",
+          "question": "In Python, what is the purpose of the 'self' parameter in a class method?",
+          "isCorrect": true,
+          "userAnswer": "It refers to the instance of the class",
+          "explanation": "The 'self' parameter allows the method to access and modify the object's attributes."
+        },
+        {
+          "answer": "Stack",
+          "question": "Which data structure in C++ uses Last-In, First-Out (LIFO) ordering?",
+          "isCorrect": true,
+          "userAnswer": "Stack",
+          "explanation": "Stacks follow the LIFO principle, where the last element added is the first one removed."
+        },
+        {
+          "answer": "Handling asynchronous operations",
+          "question": "In Node.js, what is the primary purpose of the 'events' module?",
+          "isCorrect": true,
+          "userAnswer": "Handling asynchronous operations",
+          "explanation": "The 'events' module allows you to create and manage custom events, crucial for asynchronous programming in Node.js."
+        },
+        {
+          "answer": "Garbage Collection",
+          "question": "Which .NET framework feature manages the lifecycle of objects?",
+          "isCorrect": true,
+          "userAnswer": "Garbage Collection",
+          "explanation": ".NET's garbage collector automatically reclaims memory occupied by objects that are no longer in use."
+        },
+        {
+          "answer": "Lists are mutable, tuples are immutable",
+          "question": "What is the primary difference between a Python list and a tuple?",
+          "isCorrect": true,
+          "userAnswer": "Lists are mutable, tuples are immutable",
+          "explanation": "Lists can be modified after creation, while tuples are fixed in size and content."
+        },
+        {
+          "answer": "JSON.parse()",
+          "question": "Which method in Javascript is used to convert a JSON string to a Javascript object?",
+          "isCorrect": true,
+          "userAnswer": "JSON.parse()",
+          "explanation": "JSON.parse() parses a JSON string, constructing the JavaScript value and returning it."
+        },
+        {
+          "answer": "To delete an object",
+          "question": "In C++, what is the purpose of a destructor?",
+          "isCorrect": true,
+          "userAnswer": "To delete an object",
+          "explanation": "Destructors are called when an object is destroyed, releasing resources held by the object."
+        },
+        {
+          "answer": "All are common HTTP methods",
+          "question": "Which of the following is NOT a common HTTP method?",
+          "isCorrect": false,
+          "userAnswer": "PATCH",
+          "explanation": "GET, POST, PUT, DELETE and PATCH are all standard HTTP methods used for different purposes in web development."
+        }
+      ],
+      "category": "Technical",
+      "improvementTip": "Review the common HTTP methods (GET, POST, PUT, DELETE, PATCH, etc.) and their uses to ensure a strong understanding of their functionalities and differences.  Practice identifying the purpose of each method in various scenarios.",
+      "createdAt": "2025-09-01 19:38:06.205",
+      "updatedAt": "2025-09-01 19:38:06.205"
+    },
+    {
+      "id": "cmf6soe3r0001igd0qm20tzcw",
+      "userId": "4f0bfd39-0338-42bd-85f0-0223c2d129fc",
+      "quizScore": 70,
+      "questions": [
+        {
+          "answer": "Observer",
+          "question": "Which design pattern best addresses the 'Hollywood Principle' (Don't call us, we'll call you) in a Node.js application involving asynchronous operations and multiple plugins?",
+          "isCorrect": true,
+          "userAnswer": "Observer",
+          "explanation": "The Observer pattern allows plugins to register their interest in events without needing to explicitly call them. The core application 'notifies' plugins when relevant events occur, embodying the Hollywood principle."
+        },
+        {
+          "answer": "Implementing a centralized exception handling mechanism using `std::exception_ptr`",
+          "question": "In C++, what is the most efficient way to handle exceptions thrown from a deeply nested function call within a multi-threaded environment to avoid blocking other threads?",
+          "isCorrect": false,
+          "userAnswer": "Using `try-catch` blocks with extensive error handling at each level",
+          "explanation": "`std::exception_ptr` allows capturing and re-throwing exceptions across function boundaries and thread contexts without blocking other threads. It offers better performance than nested `try-catch` blocks and is safer than ignoring exceptions."
+        },
+        {
+          "answer": "Switching from Python lists to NumPy arrays",
+          "question": "You are optimizing a Python script for performance.  Which approach will likely yield the most significant speedup for computationally intensive operations involving large numerical arrays?",
+          "isCorrect": true,
+          "userAnswer": "Switching from Python lists to NumPy arrays",
+          "explanation": "NumPy arrays provide optimized vectorized operations that are significantly faster than Python's built-in list manipulations for numerical computations."
+        },
+        {
+          "answer": "Message Queues (e.g., RabbitMQ, Azure Service Bus)",
+          "question": "In .NET, you need to design a highly scalable and fault-tolerant microservice architecture. Which pattern best suits the need for asynchronous communication between services and robust error handling?",
+          "isCorrect": true,
+          "userAnswer": "Message Queues (e.g., RabbitMQ, Azure Service Bus)",
+          "explanation": "Message queues decouple services, provide asynchronous communication, and offer features like message persistence and retry mechanisms, crucial for scalability and fault tolerance."
+        },
+        {
+          "answer": "Using a robust input validation library that handles all potential threats",
+          "question": "What is the most effective way to prevent Cross-Site Scripting (XSS) vulnerabilities in a JavaScript-based web application that heavily uses user-supplied data?",
+          "isCorrect": true,
+          "userAnswer": "Using a robust input validation library that handles all potential threats",
+          "explanation": "While input sanitization is important, a robust library provides comprehensive protection against a wider range of XSS attack vectors than manual sanitization.  Relying solely on browser security is insufficient, as attackers may find ways to bypass it."
+        }
+      ],
+      "category": "Technical",
+      "improvementTip": "Focus on learning advanced C++ exception handling techniques, particularly those optimized for multi-threaded applications and minimizing performance overhead.  Explore solutions that decouple exception handling from the call stack.",
+      "createdAt": "2025-09-05 12:11:49.468",
+      "updatedAt": "2025-09-05 12:11:49.468"
+    }
+  ]

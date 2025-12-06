@@ -6,28 +6,11 @@ import React from 'react'
 import { Button } from './ui/button'
 import { BrainCircuit, ChevronDown, FileText, GraduationCap, LayoutDashboard, PenBox, StarIcon } from 'lucide-react'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from './ui/dropdown-menu'
-import { ensureUserExists } from '@/lib/action.js';
 
 const Header =  () => {
 
-    // Ensure user check runs before rendering
-    //await checkUser()
-
     const { isSignedIn } = useUser();
 
-    useEffect(() => {
-      const runCheckUser = async () => {
-        if (isSignedIn) {
-          try {
-            await ensureUserExists(); // call server action
-          } catch (err) {
-            console.error("Error checking user:", err);
-          }
-        }
-      };
-  
-      runCheckUser();
-    }, [isSignedIn]);
 
   return (
     <header className="fixed top-0 border-b w-full bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/60 z-50">

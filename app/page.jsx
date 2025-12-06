@@ -143,7 +143,7 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section className="w-full py-12 md:py-24 bg-background/60">
+      <section className="w-full py-12 md:py-24 bg-background">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl font-bold mb-4">
@@ -173,7 +173,7 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className="w-full">
-        <div className="mx-auto py-24 bg-gradient-to-r from-[#fce4f7] to-[#deecff] rounded-lg">
+        <div className="mx-auto py-24 bg-slate-50 rounded-lg">
           <div className="flex flex-col items-center justify-center space-y-4 text-center max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold tracking-tighter bg-gradient-to-tl from-rose-600 via-violet-500 to-blue-700 text-transparent bg-clip-text sm:text-4xl md:text-5xl">
               Ready to Accelerate Your Career?

@@ -1,5 +1,4 @@
-import React, { Suspense } from 'react'
-import { BarLoader } from 'react-spinners'
+import React from 'react'
 
 const DashboardLayout = ({children}) => {
   return (
@@ -7,9 +6,7 @@ const DashboardLayout = ({children}) => {
       <div className='flex justify-between items-center mb-5'>
         <h1 className='text-4xl gradient-subtitle'>Industry Insights</h1>
       </div>
-      <Suspense 
-       fallback={<BarLoader className='mt-4' width={'100%'} color='gray'/>}
-      >{children}</Suspense>
+      {children}
     </div>
   )
 }

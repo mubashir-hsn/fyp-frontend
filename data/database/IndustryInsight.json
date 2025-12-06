@@ -1,0 +1,14 @@
+[
+    {
+        "id":"cmeuc4ca80000igu44pdpoq4k",
+        "industry":"tech-software-development",
+        "salaryRanges":[
+            {"max":150000,"min":80000,"role":"Software Engineer","median":115000,"location":"USA"},{"max":180000,"min":90000,"role":"Data Scientist","median":135000,"location":"USA"},{"max":140000,"min":70000,"role":"Frontend Developer","median":105000,"location":"USA"},{"max":150000,"min":75000,"role":"Backend Developer","median":112000,"location":"USA"},{"max":170000,"min":95000,"role":"DevOps Engineer","median":130000,"location":"USA"},{"max":130000,"min":70000,"role":"Mobile Developer","median":100000,"location":"USA"}
+            ],
+            "growthRate":7,
+            "demandLevel":"High",
+            "topSkills":["Python","Java","JavaScript","Cloud Computing","Agile methodologies"],"marketOutlook":"Positive",
+            "keyTrends":["AI/ML","Cloud Computing","DevOps","Cybersecurity","Remote Work"],"recommendedSkills":["Cloud Computing","Cybersecurity","Data Analysis","Agile","API Development"],
+            "lastUpdated":"2025-08-27 18:55:05.787",
+            "nextUpdate":"2025-09-03 18:55:05.782"}
+]

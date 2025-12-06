@@ -3,7 +3,6 @@
 import { useRouter } from "next/navigation";
 import { format } from "date-fns";
 import { Eye, Trash2 } from "lucide-react";
-import { toast } from "sonner";
 import {
   Card,
   CardContent,
@@ -23,20 +22,11 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
-import { deleteCoverLetter } from "@/actions/cover-letter";
 
 export default function CoverLetterList({ coverLetters }) {
   const router = useRouter();
 
-  const handleDelete = async (id) => {
-    try {
-      await deleteCoverLetter(id);
-      toast.success("Cover letter deleted successfully!");
-      router.refresh();
-    } catch (error) {
-      toast.error(error.message || "Failed to delete cover letter");
-    }
-  };
+  
 
   if (!coverLetters?.length) {
     return (
@@ -91,7 +81,7 @@ export default function CoverLetterList({ coverLetters }) {
                     <AlertDialogFooter>
                       <AlertDialogCancel>Cancel</AlertDialogCancel>
                       <AlertDialogAction
-                        onClick={() => handleDelete(letter.id)}
+                        
                         className="bg-destructive text-destructive-foreground hover:bg-destructive/90"
                       >
                         Delete

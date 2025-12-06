@@ -1,4 +1,4 @@
-"use client"
+'use client'
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
@@ -7,8 +7,9 @@ import { Brain, BriefcaseIcon, LineChart, TrendingDown, TrendingUp } from 'lucid
 import React from 'react'
 import { Bar, BarChart, CartesianGrid, Rectangle, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
-const DashboardView = ({ insights }) => {
+const DashboardView = ({ data }) => {
 
+    const insights = data[0];
     // Transform salary data for the chart
     const salaryData = insights.salaryRanges.map((range) => ({
         name: range.role,

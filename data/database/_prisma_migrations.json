@@ -1,0 +1,1 @@
+[{"id":"9e71c571-b351-4f81-a5e7-87e73ba9c725","checksum":"748c1808b7529829bdb5676d9e4a5cc26f35bec8f0bb64b1b7207455d7ec838c","finished_at":"2025-08-22 12:49:17.396416+00","migration_name":"20250822124914_create_models","logs":null,"rolled_back_at":null,"started_at":"2025-08-22 12:49:16.038654+00","applied_steps_count":1}]
